@@ -13,7 +13,7 @@ class TestDay1(unittest.TestCase):
         self.assertEqual(day1.similarity_score('./data/day1_sampledata.txt'), 31)
 
     def test_part1_part2_full(self):
-        self.assertEqual(day1.similarity_score('./data/day1_fulldata.txt'), 31)
+        self.assertEqual(day1.similarity_score('./data/day1_fulldata.txt'), 24643097)
 
 
 if __name__ == '__main__':
